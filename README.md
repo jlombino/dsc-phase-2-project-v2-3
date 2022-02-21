@@ -20,7 +20,6 @@ This tool must meet two criteria to be of use to Bentley & Co. Bank:
 
 Bentley Bank & Co. can use the models created in this notebook to generate a range of prices a given house can be expected to fall into. 
 
-<br>
 <h1>Data</h1>
 
 All of the data used in this project can be found in the Data folder.
@@ -49,7 +48,6 @@ The data provided in 'zips.csv' contains a list of zipcodes and the correspondin
 
 All of the data was converted to numeric scales except location which needed to be one-hot-encoded to work in the model.
 
-<br>
 <h1>Exploratory Data Analysis</h1>
 
 <h2>Distrobution of Features</h2> 
@@ -69,7 +67,7 @@ Location appears to have a huge impact on price. This chart shows the median pri
 <br>
 <h2>Correlation Between Features</h2>
 Just a standard correlation coefficient matrix.<br>
-<img src='./images/corr.png'><br><br>
+<img src='./images/corr.png'><br>
 
 <h1>Methods</h1>
 
@@ -118,7 +116,7 @@ We looked at this in the comparing model predictions section. It does appear tha
 We will look at this below.
 </ol>
 
-<br><h2>Normality Assumption</h2>
+<h2>Normality Assumption</h2>
 The basic and medium models perform poorly in terms of normality of the residuals. The best model's residuals are pretty normally distributed however, only really deviating at the tails.<br>
 <img src='./images/qq.png'>
 
