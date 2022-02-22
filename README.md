@@ -2,7 +2,7 @@
 
 Author: Jason Lombino
 
-For more information on this project please see my presentation or <a href= https://github.com/jlombino/dsc-phase-2-project-v2-3/blob/main/Final_Notebook.ipynb>Jupyter Notebook</a>
+For more information on this project please see my <a href= https://github.com/jlombino/dsc-phase-2-project-v2-3/blob/main/slides.pdf>Presentation</a> or <a href= https://github.com/jlombino/dsc-phase-2-project-v2-3/blob/main/Final_Notebook.ipynb>Jupyter Notebook</a>
 <br>
 
 <h1>Business Problem</h1>
@@ -24,7 +24,7 @@ Bentley Bank & Co. can use the models created in this notebook to generate a ran
 
 All of the data used in this project can be found in the Data folder.
 
-The data provided in 'kc_house_data.csv' contains information on 21 thousand homes sold in the King County, WA area between 2014 and 2015. The description of the column names can be found in `column_names.md` in the same folder.
+The data provided in 'kc_house_data.csv' contains information on 21 thousand homes sold in the King County, WA area between 2014 and 2015. The description of the column names can be found in 'column_names.md' in the same folder.
 
 I used the following features in this project:
 
@@ -91,7 +91,7 @@ Coefficients can be found in my <a href= https://github.com/jlombino/dsc-phase-2
 <h2>Best Model</h2>
 The third and best model condisered most features and applied transformations to some before using them to estimate price.<br>
 This model had a Pearson Coefficient of 0.779 on the train data and 0.783 on the test data.<br>
-This model predicted the log of price instead of price so the RMSE is not applicable.<br>
+This model had an RMSE of approximately $160,000.<br>
 Coefficients can be found in my <a href= https://github.com/jlombino/dsc-phase-2-project-v2-3/blob/main/Final_Notebook.ipynb>Jupyter Notebook</a>
 
 
