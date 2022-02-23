@@ -18,7 +18,7 @@ This tool must meet two criteria to be of use to Bentley & Co. Bank:
 
 <h1>Goals</h1>
 
-Bentley Bank & Co. can use the models created in this notebook to generate a range of prices a given house can be expected to fall into. 
+Bentley & Co. Bank can use the models created in this notebook to generate a range of prices a given house can be expected to fall into. 
 
 <h1>Data</h1>
 
