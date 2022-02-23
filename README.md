@@ -108,8 +108,7 @@ There are three assumptions made when using a linear regression model.
 We looked at this during the exploratory data analysis.
 
 <li><b>Homoscedasticity</b>: Does the variance of the residuals change based on the value of the target?</li>
-
-We looked at this in the comparing model predictions section. It does appear that the residuals variance increases as price increases. I am not sure if this is statistically significant because I was unable to get the code for the Goldfeld-Quandt test working.
+It does appear that the residuals variance increases as price increases. I am not sure if this is statistically significant because I was unable to get the code for the Goldfeld-Quandt test working.
 
 <li><b>Normality</b>: Are the residuals of the model normally distributed?</li>
 
