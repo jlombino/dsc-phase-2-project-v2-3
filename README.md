@@ -78,19 +78,19 @@ I utilized SciKitLearn, StatsModels, and SciPy to create three linear regression
 
 <h2>Basic</h2>
 The first basic model only considered the square footage of the living space when estimating price.<br>
-This model had a Pearson Coefficient of 0.488 on the train data and 0.509 on the test data.<br>
+This model had an R2 Coefficient of 0.488 on the train data and 0.509 on the test data.<br>
 This model had an RMSE of approximately $250,000.<br>
 Coefficients can be found in my <a href= https://github.com/jlombino/dsc-phase-2-project-v2-3/blob/main/Final_Notebook.ipynb>Jupyter Notebook</a>
 
 <h2>Medium Complexity</h2>
 The second medium complexity model considered all available predictors when estimating price.<br>
-This model had a Pearson Coefficient of 0.728 on the train data and 0.762 on the test data.<br>
+This model had an R2 Coefficient of 0.728 on the train data and 0.762 on the test data.<br>
 This model had an RMSE of approximately $190,000.<br>
 Coefficients can be found in my <a href= https://github.com/jlombino/dsc-phase-2-project-v2-3/blob/main/Final_Notebook.ipynb>Jupyter Notebook</a>
 
 <h2>Best Model</h2>
 The third and best model condisered most features and applied transformations to some before using them to estimate price.<br>
-This model had a Pearson Coefficient of 0.779 on the train data and 0.783 on the test data.<br>
+This model had an R2 Coefficient of 0.779 on the train data and 0.783 on the test data.<br>
 This model had an RMSE of approximately $160,000.<br>
 Coefficients can be found in my <a href= https://github.com/jlombino/dsc-phase-2-project-v2-3/blob/main/Final_Notebook.ipynb>Jupyter Notebook</a>
 
